@@ -2500,9 +2500,9 @@ body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body { backgrou
 /* fucking nightmode  */
 .morelink:lang(nt), .fancy-toggle-button .add:lang(nt), .sidecontentbox a.helplink:lang(nt)
 {
-	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
+	box-shadow: none;
 }
 
 .res-nightmode .tabmenu li { margin: 8px 0 0 0; }
