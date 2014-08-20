@@ -1278,7 +1278,7 @@ form#newlink.submit.content { margin-top: 40px; }
 {
 	margin-top: 0;
 	margin-bottom: 8px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	color: #3b3b3b;
 	text-align: center;
 	text-indent: -9999px;
@@ -1331,7 +1331,7 @@ form#newlink.submit.content { margin-top: 40px; }
 
 .roundfield
 {
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	color: #707070;
 }
 
@@ -1367,7 +1367,7 @@ form#newlink.submit.content { margin-top: 40px; }
 {
 	margin-bottom: 30px;
 	margin-left: 0;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	width: 522px;
 	color: #707070 !important;
 	text-align: center;
@@ -1601,7 +1601,7 @@ div.tabpane-content
 
 .linefield
 {
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	width: 45%;
 	color: #707070;
 	margin-bottom: 15px;
@@ -1720,7 +1720,7 @@ div.tabpane-content
 
 .wiki-page .wiki-page-content .md.wiki>.toc>ul
 {
-	padding: 10px 10px;
+	padding: 10px;
 	border: 1px solid #e5e5e5;
 	font-weight: normal;
 	font-size: 110%;
@@ -1746,7 +1746,7 @@ div.tabpane-content
 {
 	margin-right: 320px;
 	margin-bottom: 10px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	color: #707070;
 }
 
@@ -1801,7 +1801,7 @@ div.tabpane-content
 {
 	margin-right: 320px;
 	margin-bottom: 30px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	height: 1280px;
 	color: #707070;
 }
@@ -1829,7 +1829,7 @@ ul#image-preview-list
 	margin-top: 10px;
 	margin-right: 320px;
 	margin-bottom: 30px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	background-color: #FCFCFC;
 	border-bottom: 3px solid #e5e5e5;
 	color: #3b3b3b;
@@ -1839,7 +1839,7 @@ ul#image-preview-list
 {
 	overflow: visible;
 	margin: 0 0 10px 0;
-	padding: 0 0 0 0;
+	padding: 0;
 }
 
 a.author
@@ -2088,7 +2088,7 @@ hr
 	position: fixed;
 	left: 10%;
 	margin-bottom: 30px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	background-color: #FFF;
 	border: 0 solid;
 	border-radius: 2px;
@@ -2183,7 +2183,7 @@ hr
 	width: 150px !important;
 	text-align: left !important;
 	padding: 2px;
-	margin: 0 12px 0 12px;
+	margin: 0 12px;
 }
 
 /* Res Live Preview */
