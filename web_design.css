@@ -213,16 +213,15 @@
 				background-position: 0px 0px;
 				background-repeat: no-repeat;
 				text-indent: -9999px;
-			    top: 3em; 
-			    width: 185px; 
-			    height: 77px; 
-			    left: 0; 
-			    right: 0; 
-			    margin: 0 auto; 
+			    	top: 2.3em; 
+			    	width: 185px; 
+			    	height: 77px; 
+			    	left: 0; 
+			    	right: 0; 
+			    	margin: 0 auto; 
+			    	transition: background-position 0.3s ease-in 0s;
 			}
 
-/* julian's shame css */
-.pagename a { top: 3em!important; width: 185px!important; height: 77px!important; left: 0!important; right: 0!important; margin: 0 auto!important; }
 
 .pagename a:hover {background-position: 0 -76px!important;}
 
@@ -2356,9 +2355,9 @@
 
 	/* CUSTOM LOGO CSS */
 		.pagename a {
-			top: 84px; /* The length the logo is moved from the top of the page */
+			/*top: 84px;*/ /* The length the logo is moved from the top of the page */
 			width: 185px; /* TOTAL Image width */
-			height: 43px; /* 50% of the TOTAL height of the image. */
+			/*height: 43px;*/ /* 50% of the TOTAL height of the image. */
 		}
 	
 			.pagename a:hover {background-position: 0px -43px;} /* Replace the 77 with your height */
