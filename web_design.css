@@ -54,13 +54,13 @@ body
 ::-webkit-scrollbar-corner
 {
 	background-color: transparent;
-	color: #555555;
+	color: #555;
 }
 
 ::selection
 {
 	background-color: #5b92fa;
-	color: white;
+	color: #FFF;
 	font-weight: bold;
 }
 
@@ -70,7 +70,7 @@ a:hover { text-decoration: underline; }
 
 .error
 {
-	color: #ff4444;
+	color: #F44;
 	font-size: 13px;
 	font-family: arial, sans-serif;
 }
@@ -82,7 +82,7 @@ button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button
 {
 	margin: 3px 3px 3px 3px;
 	padding: 0 8px 1px 8px;
-	background-color: #ffffff;
+	background-color: #FFF;
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
 	-webkit-box-shadow: 0 1px 0 #e2e0e0;
@@ -251,7 +251,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	vertical-align: bottom;
 	text-align: left;
 	padding-left: 55px;
-	white-space: nowrap;
+	#FFF-space: nowrap;
 	font-weight: normal;
 	font-size: 15px;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -464,7 +464,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 {
 	background-image: none;
 	border: 0 solid;
-	color: white;
+	color: #FFF;
 	font-size: 0;
 	background-color: #c8c8c8;
 	margin-top: 3px;
@@ -1076,7 +1076,7 @@ div.titlebox span.word { display: none; }
 	line-height: 1.35em;
 }
 
-.domain { color: white; }
+.domain { color: #FFF; }
 .domain a { color: #c0c0c0; }
 
 .domain a:hover
@@ -1311,7 +1311,7 @@ form#newlink.submit.content { margin-top: 40px; }
 {
 	padding: 5px 55px 0 55px;
 	width: 100px;
-	background-color: white;
+	background-color: #FFF;
 	border: 0 solid;
 	color: #5b92fa;
 	text-align: center;
@@ -1379,7 +1379,7 @@ form#newlink.submit.content { margin-top: 40px; }
 .submit-page button:hover
 {
 	background-color: #5b92fa;
-	color: white !important;
+	color: #FFF !important;
 	border-bottom: 4px solid #477ADB;
 }
 
@@ -1447,7 +1447,7 @@ form#newlink.submit.content { margin-top: 40px; }
 {
 	font-size: 12px;
 	content: "Automatically generate a title.";
-	background-color: rgb(0, 0, 0);
+	background-color: #000;
 	background-color: rgba(0, 0, 0, 0.0);
 	position: absolute;
 	width: 175px;
@@ -1476,7 +1476,7 @@ form#newlink.submit.content { margin-top: 40px; }
 	top: -40px;
 	opacity: 100;
 	visibility: visible;
-	background-color: rgb(0, 0, 0);
+	background-color: #000;
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -1970,7 +1970,7 @@ hr
 .comments-page textarea
 {
 	background-color: #fff;
-	border: 1px solid #cccccc;
+	border: 1px solid #CCC;
 	color: #999;
 	font-size: 13px;
 	font-family: arial, sans-serif;
@@ -2089,7 +2089,7 @@ hr
 	left: 10%;
 	margin-bottom: 30px;
 	padding: 10px 10px 10px 10px;
-	background-color: white;
+	background-color: #FFF;
 	border: 0 solid;
 	border-radius: 2px;
 	color: #3b3b3b;
@@ -2105,7 +2105,7 @@ hr
 	z-index: 1000;
 	width: 100%;
 	height: 100%;
-	background-color: white;
+	background-color: #FFF;
 	opacity: .6;
 }
 
@@ -2224,7 +2224,7 @@ hr
 {
 	padding: 0 0 !important;
 	background: none repeat-x scroll center left !important;
-	background-color: white !important;
+	background-color: #FFF !important;
 	background-image: none !important;
 	border: 0 solid !important;
 	border-radius: 0 !important;
@@ -2238,7 +2238,7 @@ hr
 .RESshortcutside.remove
 {
 	padding: 0 3px 0 0 !important;
-	background-color: white !important;
+	background-color: #FFF !important;
 	background-image: none !important;
 	border: 0 solid !important;
 	color: #3b3b3b !important;
@@ -2249,7 +2249,7 @@ hr
 {
 	padding: 0 0 !important;
 	background: none repeat-x scroll center left !important;
-	background-color: white !important;
+	background-color: #FFF !important;
 	background-image: none !important;
 	border: 0 solid !important;
 	border-radius: 0 !important;
@@ -2263,7 +2263,7 @@ hr
 .RESDashboardToggle.remove
 {
 	padding: 2px 6px 2px 0 !important;
-	background-color: white !important;
+	background-color: #FFF !important;
 	background-image: none !important;
 	border: 0 solid !important;
 	color: #3b3b3b !important;
@@ -2302,13 +2302,13 @@ hr
 	padding: 2px;
 }
 
-.markdownEditor { white-space: inherit !important; }
+.markdownEditor { #FFF-space: inherit !important; }
 
 #progressIndicator, #NERFail, .NERPageMarker
 {
 	margin-right: 320px !important;
 	width: inherit !important;
-	background-color: white !important;
+	background-color: #FFF !important;
 	border: 1px solid #d8d8d8 !important;
 	border-top: 0 solid !important;
 	border-bottom: 3px solid #d8d8d8 !important;
@@ -2325,7 +2325,7 @@ hr
 
 .RESSubscriptionButton
 {
-	background-color: white !important;
+	background-color: #FFF !important;
 	border: 0 solid !important;
 	border-radius: 0 !important;
 	color: #5b92fa !important;
@@ -2605,7 +2605,7 @@ button:lang(nt):active, #search input[type='submit']:lang(nt):active, .wiki-page
 	border: 1px solid #3a7ae6;
 	/* Slightly darker to create nice edges */
 	color: #fff;
-	/* Text color - alternatively use #333 when white is too light */
+	/* Text color - alternatively use #333 when #FFF is too light */
 }
 
 /* --------------------------- */
