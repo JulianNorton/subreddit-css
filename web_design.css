@@ -1424,45 +1424,14 @@ form#newlink.submit.content { margin-top: 40px; }
 /* Suggest Title Button */
 #url-field button
 {
-	margin: 10px 0 0 5px;
-	height: 31px;
-	width: 32px;
-	position: relative;
-	top: -42px;
-	left: -1px;
-	border-radius: 0;
+	width: 120px;
 	background-color: #F4F4F4;
-	border-bottom: 0 solid !important;
 	box-shadow: none;
-	border-left: 1px solid #D8D8D8;
-	font-size: 0;
-	background-image: url(%%spritesheet%%);
-	background-position: -112px -49px;
+	border-radius: 0;s
+	border: 1px solid #D8D8D8;
 }
 
-#url-field #suggest-title { height: 0; }
-#url-field button:hover { background-color: #DEDEDE; }
-
-#url-field button:before
-{
-	font-size: 12px;
-	content: "Automatically generate a title.";
-	background-color: #000;
-	background-color: rgba(0, 0, 0, 0.0);
-	position: absolute;
-	width: 175px;
-	cursor: default;
-	padding: 0.25em 3em;
-	top: -60px;
-	left: -100px;
-	border-radius: 100px;
-	text-transform: none;
-	color: #FFF;
-	transition: all 0.2s ease;
-	line-height: 2em;
-	visibility: hidden;
-	opacity: 0;
-}
+#url-field button:hover { background-color: #5b92fa; }
 
 #url-field .error.NO_URL.field-url
 {
