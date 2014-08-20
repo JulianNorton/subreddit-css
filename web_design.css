@@ -642,9 +642,6 @@ div.titlebox span.word { display: none; }
 	border-bottom: 2px solid #306cd1;
 }
 
-/* Search */
-#search { }
-
 #search input[type=text]
 {
 	margin: 17px 0 0 0;
@@ -2370,14 +2367,12 @@ hr
 
 @media (max-width: 800px) and (min-width: 601px)
 {
-	body { }
 	.link, .commentarea { margin-right: 10px; }
 	.side { display: none; }
 }
 
 @media (max-width: 600px) and (min-width: 100px)
 {
-	body { }
 	
 	#header-bottom-right
 	{
