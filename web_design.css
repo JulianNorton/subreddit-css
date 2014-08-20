@@ -251,7 +251,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	vertical-align: bottom;
 	text-align: left;
 	padding-left: 55px;
-	#FFF-space: nowrap;
+	white-space: nowrap;
 	font-weight: normal;
 	font-size: 15px;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -2302,7 +2302,7 @@ hr
 	padding: 2px;
 }
 
-.markdownEditor { #FFF-space: inherit !important; }
+.markdownEditor { white-space: inherit !important; }
 
 #progressIndicator, #NERFail, .NERPageMarker
 {
