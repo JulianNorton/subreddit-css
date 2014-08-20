@@ -173,7 +173,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 #header
 {
 	height: 167px;
-	background: #2a2b2e url(%%headerimg%%) no-repeat fixed 50% 0%;
+	background: #2a2b2e url(%%headerimg%%) no-repeat fixed 50% 0;
 	border-bottom: 0 solid;
 	overflow: visible !important;
 }
