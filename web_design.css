@@ -1417,6 +1417,14 @@ form#newlink.submit.content { margin-top: 40px; }
 	margin-right: 320px;
 }
 
+
+/* submit text for posting: highlight it a bit */
+.submit_text {
+    background-color: #e2efff;
+    border: 1px solid #b8d8ff;
+    color: #444;
+}
+
 #file { margin: 10px; }
 .submit-page .gray, #suggested-reddits { display: none; }
 .submit-page form .spacer+.spacer { margin: 8px 0; }
