@@ -75,7 +75,7 @@ a:hover { text-decoration: underline; }
 	font-family: arial, sans-serif;
 }
 
-#noresults:after { content: "... so go ahead and tell us what you think!"; }
+.comments-page #noresults:after { content: "... so go ahead and tell us what you think!"; }
 
 /* General Button*/
 button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button
@@ -690,7 +690,7 @@ div.titlebox span.word { display: none; }
 
 #searchexpando label { cursor: pointer; }
 
-#search label
+.search-page form#search label
 {
 	font-size: 150%;
 	cursor: pointer;
@@ -1272,7 +1272,7 @@ a.pretty-button.positive
 }
 
 /* Submit Page */
-#newlink.submit.content { margin-top: 40px; }
+form#newlink.submit.content { margin-top: 40px; }
 
 .submit-page .infobar
 {
@@ -1336,7 +1336,7 @@ a.pretty-button.positive
 }
 
 .submit-page textarea, .roundfield input[type=url], .roundfield input[type=text], .login-form-side input[type=text], .login-form-side input[type=password],
-				.linefield textarea, .linefield input[type="text"], .flairlist .flaircell input[type="text"], .linkinfo .shortlink input, #search input[type=text]
+				.linefield textarea, .linefield input[type="text"], .flairlist .flaircell input[type="text"], .linkinfo .shortlink input, .search-page #search input[type=text]
 {
 	margin: 0;
 	padding: 5px;
@@ -1351,10 +1351,10 @@ a.pretty-button.positive
 }
 
 .submit-page textarea:hover, .roundfield input[type=url]:hover, .roundfield input[type=text]:hover, .login-form-side input[type=text]:hover, .login-form-side input[type=password]:hover,
-					.linefield textarea:hover, .linefield input[type="text"]:hover, .flairlist .flaircell input[type="text"]:hover, .linkinfo .shortlink input:hover, #search input[type=text] { border: 1px solid #bebebe; }
+					.linefield textarea:hover, .linefield input[type="text"]:hover, .flairlist .flaircell input[type="text"]:hover, .linkinfo .shortlink input:hover, .search-page #search input[type=text] { border: 1px solid #bebebe; }
 
 .submit-page textarea:focus, .roundfield input[type=url]:focus, .roundfield input[type=text]:focus, .login-form-side input[type=text]:focus, .login-form-side input[type=password]:focus,
-					.linefield textarea:focus, .linefield input[type="text"]:focus, .flairlist .flaircell input[type="text"]:focus, .linkinfo .shortlink input:focus, #search input[type=text]
+					.linefield textarea:focus, .linefield input[type="text"]:focus, .flairlist .flaircell input[type="text"]:focus, .linkinfo .shortlink input:focus, .search-page #search input[type=text]
 {
 	border: 1px solid #4d90fe;
 	color: #000;
@@ -1440,7 +1440,7 @@ a.pretty-button.positive
 	background-position: -112px -49px;
 }
 
-#suggest-title { height: 0; }
+#url-field #suggest-title { height: 0; }
 #url-field button:hover { background-color: #DEDEDE; }
 
 #url-field button:before
@@ -1650,11 +1650,11 @@ div.tabpane-content
 	margin-bottom: 8px;
 }
 
-#tab-grant.selected, #tab-templates.selected, 
-					#tab-link_templates.selected { margin: 7px 0 4px 0; }
-#tab-grant.selected a, #tab-grant a:hover,
-					#tab-templates.selected a, #tab-templates a:hover, 
-					#tab-link_templates.selected a, #tab-link_templates a:hover { color: #333; }
+.tabmenu li#tab-grant.selected, .tabmenu li#tab-templates.selected, 
+					.tabmenu li#tab-link_templates.selected { margin: 7px 0 4px 0; }
+.tabmenu li#tab-grant.selected a, .tabmenu li#tab-grant a:hover,
+					.tabmenu li#tab-templates.selected a, .tabmenu li#tab-templates a:hover, 
+					.tabmenu li#tab-link_templates.selected a, .tabmenu li#tab-link_templates a:hover { color: #333; }
 
 /* WIKI Page */
 .wiki-page .wiki-page-content
@@ -1739,7 +1739,7 @@ div.tabpane-content
 
 .wiki-page .wiki-page-content .discussionlink a { padding-left: 0; }
 .wiki-page .nextprev { display: none; }
-.wiki-page-content em, #editform label { font-size: 120%; }
+.wiki-page-content em, .wiki-page-content form#editform label { font-size: 120%; }
 
 /*Stylesheet fix */
 .pretty-form
@@ -1806,7 +1806,7 @@ div.tabpane-content
 	color: #707070;
 }
 
-#image-preview-list
+ul#image-preview-list
 {
 	margin: 15px 0 0 0;
 	padding-bottom: 80px;
@@ -2110,7 +2110,7 @@ hr
 }
 
 /* Search page */
-#search
+.search-page #search
 {
 	position: relative;
 	top: 0;
@@ -2134,7 +2134,7 @@ hr
 	border: 0 solid;
 }
 
-#search input[type=text]
+.search-page #search input[type=text]
 {
 	padding: 5px 0 5px 40px;
 	font-size: 150%;
@@ -2151,7 +2151,7 @@ hr
 	border-bottom: 3px solid #E5E5E5;
 }
 
-#header .tabmenu { display: none !important; }
+.search-page #header .tabmenu { display: none !important; }
 .search-page .side { padding-top: 40px; }
 .search-summary { margin-right: 40px; }
 
@@ -2170,7 +2170,7 @@ hr
 	border-radius: 0 !important;
 }
 
-#searchexpando
+.res #searchexpando
 {
 	padding: 10px 5px 10px 25px;
 	height: inherit;
@@ -2288,7 +2288,7 @@ hr
 	padding-left: 10px;
 }
 
-#RESShortcutsSort
+.res #RESShortcutsSort
 {
 	width: 30px !important;
 	background-color: transparent !important;
@@ -2315,7 +2315,7 @@ hr
 	border-radius: 2px !important;
 }
 
-#NREFloat
+.res #NREFloat
 {
 	top: 8px;
 	z-index: 100;
@@ -2331,7 +2331,7 @@ hr
 	color: #5b92fa !important;
 }
 
-#header-bottom-right
+.res #header-bottom-right
 {
 	right: 10px;
 	top: 141px !important;
@@ -2339,7 +2339,7 @@ hr
 	border-radius: 0 !important;
 }
 
-#userbarToggle { display: none !important; }
+.res #userbarToggle { display: none !important; }
 #RESAccountSwitcherIcon { margin-top: -5px; }
 
 .res .author.submitter
@@ -2433,9 +2433,9 @@ body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body { backgrou
 	border-bottom-color: #17191A !important;
 }
 
-#header:lang(nt):after, #header-bottom-right:lang(nt), .titlebox h6:lang(nt), #header:after,
+#header:lang(nt):after, #header-bottom-right:lang(nt), .titlebox h6:lang(nt), .res-nightmode #header:after,
 	.res-nightmode .tabmenu li a, .res-nightmode .login-form, .res-nightmode .login-form input[name*="passwd"], 
-	.res-nightmode .login-form-side .submit, #header-bottom-right { background-color: #2b303b; }
+	.res-nightmode .login-form-side .submit, .res-nightmode #header-bottom-right { background-color: #2b303b; }
 
 .titlebox h6:lang(nt)
 {
@@ -2510,7 +2510,7 @@ body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body { backgrou
 .res-nightmode .tabmenu li { margin: 8px 0 0 0; }
 
 /* I swear to god who thinks pink backgrounds are a good idea */
-#header-bottom-left, .res-nightmode ul.tabmenu li.selected a, .res-nightmode .redditname a.active, 
+.res-nightmode #header-bottom-left, .res-nightmode ul.tabmenu li.selected a, .res-nightmode .redditname a.active, 
 	.res-nightmode .RESDashboardToggle, .res-nightmode .RES-keyNav-activeElement, .res-nightmode .RES-keyNav-activeElement .usertext-body, 
 	.res-nightmode .RES-keyNav-activeElement .usertext-body .md, .res-nightmode .RES-keyNav-activeElement .usertext-body .md p, 
 	.res-nightmode .commentarea .RES-keyNav-activeElement .noncollapsed, 
@@ -2521,12 +2521,12 @@ body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body { backgrou
 	.res-nightmode .moduleHeader, .res-nightmode .allOptionsContainer, .res-nightmode .optionContainer { background-color: transparent !important; }
 
 /* spruce it up */
-#header { background: #2B303B !important; }
+.res-nightmode #header { background: #2B303B !important; }
 .res-nightmode .share-button .option, .res-nightmode #subscribe a, 
 	.res-nightmode .share .option, .res-nightmode .tagline a, .res-nightmode .tagline .head .author, 
 	.res-nightmode .footer a, .res-nightmode .wired a, .res-nightmode .side a, .res-nightmode .subredditbox li a, 
 	.res-nightmode .link .score.dislikes, .res-nightmode .linkcompressed .score.dislikes, .res-nightmode a[rel="tag"], .res-nightmode .dsq-help, 
-	#authorInfoToolTip h3 a, .res-nightmode .RES-keyNav-activeElement .md, .res-nightmode .help-toggle .option, 
+	.res-nightmode #authorInfoToolTip h3 a, .res-nightmode .RES-keyNav-activeElement .md, .res-nightmode .help-toggle .option, 
 	.res-nightmode .morecomments a, .res-nightmode .reddiquette, .res-nightmode .parent .author, .res-nightmode .parent .subreddit, 
 	.res-nightmode .comment .md p a { color: #5B92FA !important; }
 .res-nightmode .side:after { content: "Hello nightmode user. You're very brave."; }
