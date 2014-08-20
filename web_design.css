@@ -86,6 +86,7 @@ button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
 	-webkit-box-shadow: 0 1px 0 #e2e0e0;
+	-moz-box-shadow: 0 1px 0 #E2E0E0;
 	box-shadow: 0 1px 0 #e2e0e0;
 	color: #737373 !important;
 	text-transform: capitalize;
@@ -111,6 +112,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	border-top-width: 2px;
 	border-bottom-width: 1px;
 	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 	color: #333 !important;
 	line-height: 25px;
@@ -542,6 +544,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	background-color: #fff;
 	border: 1px solid #d4d4d4;
 	-webkit-box-shadow: 0 1px 0 #e2e0e0;
+	-moz-box-shadow: 0 1px 0 #E2E0E0;
 	box-shadow: 0 1px 0 #e2e0e0;
 	font-size: 10px;
 	line-height: 16px;
@@ -829,6 +832,7 @@ div.titlebox span.word { display: none; }
 	border-top: 2px solid #5b92fa;
 	border-bottom: 2px solid #5b92fa;
 	-webkit-box-shadow: 0 1px 0 #E2E0E0;
+	-moz-box-shadow: 0 1px 0 #E2E0E0;
 	box-shadow: 0 1px 0 #E2E0E0;
 	color: #fff !important;
 	text-align: center;
@@ -848,6 +852,7 @@ div.titlebox span.word { display: none; }
 	border-top: 2px solid #6599fa;
 	border-bottom: 2px solid #3863b6;
 	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 	text-decoration: none;
 }
@@ -858,6 +863,7 @@ div.titlebox span.word { display: none; }
 	border-top: 2px solid #21407a;
 	border-bottom: 2px solid #3863b6;
 	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 }
 
@@ -880,6 +886,7 @@ div.titlebox span.word { display: none; }
 	height: 35px;
 	background-color: #fff;
 	-webkit-box-shadow: 0 2px 4px 0 #d3d3d3;
+	-moz-box-shadow: 0 2px 4px 0 #d3d3d3;
 	box-shadow: 0 2px 4px 0 #d3d3d3;
 	color: #737373;
 	padding-left: 55px;
@@ -1336,6 +1343,7 @@ a.pretty-button.positive
 	border: 1px solid #d9d9d9;
 	border-top: 1px solid #c0c0c0;
 	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 	color: #333;
 	font-size: 100%;
@@ -1743,6 +1751,7 @@ div.tabpane-content
 .pretty-form textarea
 {
 	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 }
 
@@ -2428,8 +2437,9 @@ body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body { backgrou
 
 .titlebox h6:lang(nt)
 {
-	box-shadow: 0 2px 4px 0 #1A1B1D;
 	-webkit-box-shadow: 0 2px 4px 0 #1A1B1D;
+	-moz-box-shadow: 0 2px 4px 0 #1A1B1D;
+	box-shadow: 0 2px 4px 0 #1A1B1D;
 }
 
 .stickied.link:lang(nt) { border-color: #17191A !important; }
@@ -2492,6 +2502,7 @@ body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body { backgrou
 {
 	box-shadow: none;
 	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 }
 
 .res-nightmode .tabmenu li { margin: 8px 0 0 0; }
@@ -2526,6 +2537,7 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 	border: 1px solid #414955;
 	border-radius: 0;
 	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 	color: #e5e5e5 !important;
 	line-height: 28px;
@@ -2548,6 +2560,7 @@ button:lang(nt):active, #search input[type='submit']:lang(nt):active, .wiki-page
 	border-color: #414955;
 	border-width: 1px;
 	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
 	box-shadow: none;
 	color: #fff !important;
 	line-height: 28px;
