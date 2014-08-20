@@ -2665,3 +2665,11 @@ div.titlebox span.number:after { content: " readers"; }
 	background-color: #ff7917;
 	padding: 3px;
 }
+
+.linkflair-critique .linkflairlabel
+{
+	font-size: 9px;
+	color: #fff;
+	background-color: #A64E48;
+	padding: 3px;
+}
