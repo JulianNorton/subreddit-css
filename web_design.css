@@ -1428,6 +1428,7 @@ form#newlink.submit.content { margin-top: 40px; }
 	background-color: #F4F4F4;
 	box-shadow: none;
 	border-radius: 0;
+	padding: 0;
 }
 
 #url-field button:hover { background-color: #5b92fa; }
