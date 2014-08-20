@@ -2622,7 +2622,7 @@ button:lang(nt):active, #search input[type='submit']:lang(nt):active, .wiki-page
 /* Submit page message */
 .formtabs-content .infobar:before
 {
-	content: "Here you can set text that users will see when submitting.";
+	content: "You are submitting a link. The key to a successful submission is interesting content and a descriptive title.";
 	/* Don't delete the " "*/
 }
 
