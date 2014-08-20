@@ -2629,19 +2629,6 @@ button:lang(nt):active, #search input[type='submit']:lang(nt):active, .wiki-page
 /* Subscriber Name */
 div.titlebox span.number:after { content: " readers"; }
 
-/* Leave the space before the name! */
-/* --------------------------- */
-/* CUSTOM LOGO CSS */
-.pagename a
-{
-	/*top: 84px;*/
-	/* The length the logo is moved from the top of the page */
-	width: 185px;
-	/* TOTAL Image width */
-	/*height: 43px;*/
-	/* 50% of the TOTAL height of the image. */
-}
-
 .pagename a:hover { background-position: 0 -43px; }
 
 /* Replace the 77 with your height */
