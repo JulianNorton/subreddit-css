@@ -26,7 +26,7 @@ body
 }
 
 /* Custom browser CSS */
-:focus { outline: 0px; }
+:focus { outline: 0; }
 
 ::-webkit-scrollbar
 {
@@ -81,7 +81,7 @@ a:hover { text-decoration: underline; }
 button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button
 {
 	margin: 3px 3px 3px 3px;
-	padding: 0px 8px 1px 8px;
+	padding: 0 8px 1px 8px;
 	background-color: #ffffff;
 	border: 1px solid #d4d4d4;
 	border-radius: 2px;
@@ -97,7 +97,7 @@ button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button
 
 button:hover, #search input[type='submit']:hover, .wiki-page .wiki-page-content .wiki_button:hover
 {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 	border-color: #bababa;
 	border-bottom-width: 2px;
 	color: #333 !important;
@@ -105,7 +105,7 @@ button:hover, #search input[type='submit']:hover, .wiki-page .wiki-page-content 
 
 button:active, #search input[type='submit']:active, .wiki-page .wiki-page-content .wiki_button:active
 {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 	background-color: #e5e5e5;
 	border-color: #a7a7a7;
 	border-top-width: 2px;
@@ -174,7 +174,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 {
 	height: 167px;
 	background: #2a2b2e url(%%headerimg%%) no-repeat fixed 50% 0%;
-	border-bottom: 0px solid;
+	border-bottom: 0 solid;
 	overflow: visible !important;
 }
 
@@ -182,12 +182,12 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 {
 	position: absolute;
 	top: 132px;
-	left: 0px;
+	left: 0;
 	z-index: -1;
 	width: 100%;
 	height: 44px;
 	background: #fff;
-	border-bottom: 0px solid;
+	border-bottom: 0 solid;
 	content: " ";
 	text-indent: -999px;
 }
@@ -196,12 +196,12 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 {
 	position: absolute;
 	top: 130px;
-	left: 0px;
+	left: 0;
 	z-index: 99;
 	width: 44px;
 	height: 44px;
 	background-image: url(%%spritesheet%%);
-	background-position: 0px -226px;
+	background-position: 0 -226px;
 	background-repeat: no-repeat;
 }
 
@@ -214,7 +214,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	position: absolute;
 	z-index: 99;
 	background-image: url(%%logo%%);
-	background-position: 0px 0px;
+	background-position: 0 0;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 	top: 2.3em;
@@ -237,13 +237,13 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	display: block;
 	position: absolute;
 	top: 132px;
-	margin: 0px;
-	right: 0px;
-	left: 0px;
-	padding: 0px;
+	margin: 0;
+	right: 0;
+	left: 0;
+	padding: 0;
 	height: 44px;
 	background-color: transparent;
-	border-bottom: 0px solid;
+	border-bottom: 0 solid;
 	color: #999;
 	list-style-type: none;
 	vertical-align: bottom;
@@ -259,15 +259,15 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 .tabmenu li
 {
 	display: inline-block;
-	margin: 7px 0px 0px 0px;
+	margin: 7px 0 0 0;
 }
 
 .tabmenu li a
 {
-	margin: 0px 17px 0px 17px;
-	padding: 8px 0px 8px 0px;
+	margin: 0 17px 0 17px;
+	padding: 8px 0 8px 0;
 	background-color: transparent;
-	border: 0px solid;
+	border: 0 solid;
 	border-bottom: 2px solid transparent;
 	color: #999;
 	font-weight: normal;
@@ -286,7 +286,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 {
 	z-index: 100;
 	background-color: transparent;
-	border: 0px solid;
+	border: 0 solid;
 	border-bottom: 2px solid #5b92fa;
 	color: #262626;
 	font-size: 22px;
@@ -303,7 +303,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 {
 	position: absolute;
 	top: 141px;
-	right: 0px;
+	right: 0;
 	padding: 8px 15px 7px 15px;
 	width: auto;
 	height: 12px;
@@ -330,16 +330,16 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 /* Mail / Modmail icons */
 #mail
 {
-	top: 0px;
+	top: 0;
 	overflow: visible;
 	width: 16px;
 	height: 16px;
 	background-image: url(%%spritesheet%%) !important;
 }
 
-#mail:hover, #modmail:hover { border-bottom: 0px solid !important; }
-#mail.nohavemail { background-position: -64px 0px; }
-#mail.havemail { background-position: -80px 0px; }
+#mail:hover, #modmail:hover { border-bottom: 0 solid !important; }
+#mail.nohavemail { background-position: -64px 0; }
+#mail.havemail { background-position: -80px 0; }
 
 #modmail
 {
@@ -350,8 +350,8 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	background-image: url(%%spritesheet%%) !important;
 }
 
-#modmail.havemail { background-position: -112px 0px; }
-#modmail.nohavemail { background-position: -96px 0px; }
+#modmail.havemail { background-position: -112px 0; }
+#modmail.nohavemail { background-position: -96px 0; }
 
 /* Preferences & Logout Icons */
 #header-bottom-right a.pref-lang, .loggedin .logout a
@@ -362,7 +362,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	height: 16px;
 	display: inline-block;
 	text-indent: -9999px;
-	margin: 0px;
+	margin: 0;
 	position: relative;
 	top: -2px;
 }
@@ -386,14 +386,14 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 {
 	opacity: 1;
 	text-decoration: none !important;
-	border-bottom: 0px solid !important;
+	border-bottom: 0 solid !important;
 }
 
 /* Sidebar */
 .side
 {
 	float: right;
-	margin: 34px 10px 0px 0px;
+	margin: 34px 10px 0 0;
 	border-radius: 2px;
 	padding-top: 25px;
 	width: 300px;
@@ -404,8 +404,8 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 .side:after
 {
 	display: block;
-	margin: 10px 0px;
-	padding: 10px 0px;
+	margin: 10px 0;
+	padding: 10px 0;
 	color: #5b92fa;
 	content: "This subreddit uses /r/naut!";
 	/* Hey! Please don't remove or change this. */
@@ -437,7 +437,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 .morelink a
 {
 	color: #fff !important;
-	letter-spacing: 0px;
+	letter-spacing: 0;
 	font-weight: bold;
 	font-size: 15px;
 	font-family: arial, sans-serif;
@@ -455,15 +455,15 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	background-color: #5B92FA;
 	color: #FFF;
 	content: "Submit Content";
-	padding: 0px 12px;
+	padding: 0 12px;
 }
 
 .disabled .morelink,.disabled .morelink:hover
 {
 	background-image: none;
-	border: 0px solid;
+	border: 0 solid;
 	color: white;
-	font-size: 0px;
+	font-size: 0;
 	background-color: #c8c8c8;
 	margin-top: 3px;
 	text-shadow: none;
@@ -473,12 +473,12 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 .disabled .morelink a
 {
 	color: #fff;
-	letter-spacing: 0px;
+	letter-spacing: 0;
 	font-weight: 600;
 	font-size: 14px;
 	font-family: sans-serif;
 	cursor: default;
-	text-indent: 0px;
+	text-indent: 0;
 	text-shadow: none;
 }
 
@@ -489,7 +489,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 {
 	position: absolute;
 	top: 211px;
-	margin: 0px;
+	margin: 0;
 	margin-bottom: 5px;
 	margin-left: 5px;
 	font-weight: lighter;
@@ -513,7 +513,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	padding: 3px 8px;
 	background-image: none !important;
 	outline: none !important;
-	border: 0px;
+	border: 0;
 	border-radius: 2px;
 	color: #fff !important;
 	text-transform: capitalize;
@@ -587,7 +587,7 @@ div.titlebox span.word { display: none; }
 /* Subreddit description */
 .titlebox
 {
-	padding: 0px 15px 15px 15px;
+	padding: 0 15px 15px 15px;
 	color: #404040;
 }
 
@@ -647,11 +647,11 @@ div.titlebox span.word { display: none; }
 
 #search input[type=text]
 {
-	margin: 17px 0px 0px 0px;
-	padding: 5px 0px 5px 40px;
+	margin: 17px 0 0 0;
+	padding: 5px 0 5px 40px;
 	width: 258px;
 	background-image: url(%%spritesheet%%);
-	background-position: -129px 0px;
+	background-position: -129px 0;
 	background-repeat: no-repeat;
 	border: none;
 	border-top: 1px solid #d5d5d5;
@@ -665,7 +665,7 @@ div.titlebox span.word { display: none; }
 
 #search input[type=text]:focus
 {
-	padding: 5px 0px 5px 40px;
+	padding: 5px 0 5px 40px;
 	width: 258px;
 	outline: none !important;
 	border: none;
@@ -677,13 +677,13 @@ div.titlebox span.word { display: none; }
 
 #searchexpando
 {
-	margin: 0px 0px 5px 0px;
-	padding: 5px 5px 0px 15px;
+	margin: 0 0 5px 0;
+	padding: 5px 5px 0 15px;
 	height: 25px;
 	background-color: #f5f5f5;
-	border: 0px solid;
+	border: 0 solid;
 	border-bottom: 1px solid #DFDFDF;
-	border-radius: 0px;
+	border-radius: 0;
 	color: #3b3b3b;
 	font-size: 150%;
 }
@@ -702,7 +702,7 @@ div.titlebox span.word { display: none; }
 #ad-frame,#ad_main { text-align: center; }
 
 /* Sidebar mod box */
-.sidecontentbox { padding: 0px 5px 0px 15px; }
+.sidecontentbox { padding: 0 5px 0 15px; }
 .sidecontentbox .title { text-align: left; }
 
 .sidecontentbox .title h1
@@ -719,17 +719,17 @@ div.titlebox span.word { display: none; }
 .sidecontentbox .collapse-button
 {
 	background: transparent;
-	border: 0px;
-	border-radius: 0px;
+	border: 0;
+	border-radius: 0;
 	color: #262626;
 	font-size: 15px;
 }
 
 .sidecontentbox .content
 {
-	padding: 3px 0px 5px 0px;
+	padding: 3px 0 5px 0;
 	background-color: transparent;
-	border: 0px solid;
+	border: 0 solid;
 	text-align: left;
 }
 
@@ -752,7 +752,7 @@ div.titlebox span.word { display: none; }
 .icon-menu .reddit-edit:before
 {
 	background-image: url(%%spritesheet%%);
-	background-position: 0px -33px;
+	background-position: 0 -33px;
 }
 
 .icon-menu .moderator-mail:before
@@ -836,8 +836,8 @@ div.titlebox span.word { display: none; }
 	color: #fff !important;
 	text-align: center;
 	text-transform: capitalize;
-	text-shadow: 0px 1px 0px #5787e1;
-	letter-spacing: 0px;
+	text-shadow: 0 1px 0 #5787e1;
+	letter-spacing: 0;
 	font-weight: bold;
 	font-size: 13px;
 	font-family: Arial, sans-serif;
@@ -876,9 +876,9 @@ div.titlebox span.word { display: none; }
 .titlebox h6
 {
 	position: fixed;
-	top: 0px;
-	right: 0px;
-	left: 0px;
+	top: 0;
+	right: 0;
+	left: 0;
 	z-index: 97;
 	height: 35px;
 	background-color: #fff;
@@ -893,9 +893,9 @@ div.titlebox span.word { display: none; }
 
 .titlebox h6 a
 {
-	margin: 0px 17px 0px 17px;
-	padding: 2px 0px 2px 0px;
-	border: 0px solid;
+	margin: 0 17px 0 17px;
+	padding: 2px 0 2px 0;
+	border: 0 solid;
 	color: #999;
 	font-weight: normal;
 	font-size: 22px;
@@ -913,23 +913,23 @@ div.titlebox span.word { display: none; }
 .titlebox h6 a[href*="http://www.reddit.com#top"]
 {
 	position: fixed;
-	left: 0px;
-	top: 0px;
+	left: 0;
+	top: 0;
 	height: 35px;
 	width: 35px;
 	background-color: #ff0;
 	background-image: url(%%spritesheet%%);
-	background-position: 0px -49px;
-	border-bottom: 0px;
+	background-position: 0 -49px;
+	border-bottom: 0;
 	text-indent: -9999px;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 }
 
 .titlebox h6 a[href*="http://www.reddit.com#top"]:hover
 {
 	background-position: -35px -49px;
-	border-bottom: 0px solid;
+	border-bottom: 0 solid;
 }
 
 .new-page .titlebox h6 a[href*="/new"], .top-page .titlebox h6 a[href*="/top"], .hot-page .titlebox h6 a[href*="/hot"]
@@ -950,7 +950,7 @@ div.titlebox span.word { display: none; }
 				.content.submit .info-notice, .stylesheet-customize-container .pretty-form, #images, .search-page .raisedbox, 
 				.search-page .searchfacets, .linefield, .search-page .searchpane, .nextprev
 {
-	border: 0px;
+	border: 0;
 	border-bottom: 3px solid #e5e5e5 !important;
 	background-color: #fff;
 }
@@ -966,13 +966,13 @@ div.titlebox span.word { display: none; }
 	margin-right: 320px;
 	border: 1px solid #D0D6DD;
 	border-bottom-width: 3px;
-	border-top-width: 0px;
+	border-top-width: 0;
 }
 
 .link.promotedlink.promoted
 {
-	border-bottom: 0px !important;
-	margin-right: 0px;
+	border-bottom: 0 !important;
+	margin-right: 0;
 }
 
 .link.promotedlink.promoted .thumbnail { max-height: 70px !important; }
@@ -1010,7 +1010,7 @@ div.titlebox span.word { display: none; }
 
 .arrow
 {
-	margin: 2px 0px 0px 0px;
+	margin: 2px 0 0 0;
 	margin-right: auto;
 	margin-left: auto;
 	width: 16px;
@@ -1021,15 +1021,15 @@ div.titlebox span.word { display: none; }
 	border: none !important;
 }
 
-.arrow.up { background-position: -32px 0px; }
-.arrow.upmod { background-position: -48px 0px; }
-.arrow.down { background-position: 0px 0px; }
-.arrow.downmod { background-position: -16px 0px; }
+.arrow.up { background-position: -32px 0; }
+.arrow.upmod { background-position: -48px 0; }
+.arrow.down { background-position: 0 0; }
+.arrow.downmod { background-position: -16px 0; }
 
 /* Expand post */
 .expando-button
 {
-	margin: -1px 5px 0px 0px !important;
+	margin: -1px 5px 0 0 !important;
 	width: 16px !important;
 	height: 16px !important;
 	background-color: transparent !important;
@@ -1062,9 +1062,9 @@ div.titlebox span.word { display: none; }
 {
 	padding: 0 5px;
 	background-color: transparent;
-	border: 0px solid;
+	border: 0 solid;
 	border-top: 1px solid #e5e5e5;
-	border-radius: 0px;
+	border-radius: 0;
 	color: #404040;
 	font-weight: normal;
 	font-size: 14px;
@@ -1145,7 +1145,7 @@ div.titlebox span.word { display: none; }
 {
 	opacity: 100;
 	background-color: #e82e63;
-	border-radius: 0px;
+	border-radius: 0;
 	color: #fff;
 	cursor: help;
 	border-color: #e82e63;
@@ -1171,7 +1171,7 @@ div.titlebox span.word { display: none; }
 {
 	overflow: hidden;
 	background-color: #f8f8f8;
-	border: 0px solid #d8d8d8;
+	border: 0 solid #d8d8d8;
 	border-bottom: 3px solid #e5e5e5;
 }
 
@@ -1272,43 +1272,43 @@ form#newlink.submit.content { margin-top: 40px; }
 
 .submit-page .infobar
 {
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 8px;
 	padding: 10px 10px 10px 10px;
 	color: #3b3b3b;
 	text-align: center;
 	text-indent: -9999px;
-	font-size: 0px;
+	font-size: 0;
 }
 
 .formtabs-content .infobar:before
 {
 	display: block;
-	text-indent: 0px;
+	text-indent: 0;
 	font-size: 16px;
 }
 
-.submit-page .tabmenu li a { margin: 0px; }
+.submit-page .tabmenu li a { margin: 0; }
 
 .submit-page ul.tabmenu.formtab
 {
-	padding-left: 0px;
+	padding-left: 0;
 	width: 500px;
 	text-align: center;
 }
 
 .formtabs-content
 {
-	padding-top: 0px;
+	padding-top: 0;
 	border-top: 4px solid #5b92fa;
 }
 
 .submit-page .tabmenu.formtab a
 {
-	padding: 5px 55px 0px 55px;
+	padding: 5px 55px 0 55px;
 	width: 100px;
 	background-color: white;
-	border: 0px solid;
+	border: 0 solid;
 	color: #5b92fa;
 	text-align: center;
 	font-weight: normal;
@@ -1319,7 +1319,7 @@ form#newlink.submit.content { margin-top: 40px; }
 
 .submit-page .tabmenu.formtab .selected a
 {
-	padding: 5px 60px 0px 60px;
+	padding: 5px 60px 0 60px;
 	background-color: #5b92fa;
 	color: #fff;
 	font-size: 18px;
@@ -1361,13 +1361,13 @@ form#newlink.submit.content { margin-top: 40px; }
 .submit-page .content button
 {
 	margin-bottom: 30px;
-	margin-left: 0px;
+	margin-left: 0;
 	padding: 10px 10px 10px 10px;
 	width: 522px;
 	color: #707070 !important;
 	text-align: center;
 	cursor: pointer;
-	border: 0px;
+	border: 0;
 	border-bottom: 3px solid #E5E5E5;
 }
 
@@ -1389,11 +1389,11 @@ form#newlink.submit.content { margin-top: 40px; }
 
 .content.submit .info-notice
 {
-	margin: 0px 0px 4px 0px;
+	margin: 0 0 4px 0;
 	padding: 20px 10px 20px 10px;
 	color: #707070;
 	text-align: center;
-	border: 0px;
+	border: 0;
 	border-bottom: 3px solid #E5E5E5;
 }
 
@@ -1414,7 +1414,7 @@ form#newlink.submit.content { margin-top: 40px; }
 
 #file { margin: 10px; }
 .submit-page .gray, #suggested-reddits { display: none; }
-.submit-page form .spacer+.spacer { margin: 8px 0px; }
+.submit-page form .spacer+.spacer { margin: 8px 0; }
 
 /* Suggest Title Button */
 #url-field button
@@ -1425,17 +1425,17 @@ form#newlink.submit.content { margin-top: 40px; }
 	position: relative;
 	top: -42px;
 	left: -1px;
-	border-radius: 0px;
+	border-radius: 0;
 	background-color: #F4F4F4;
-	border-bottom: 0px solid !important;
+	border-bottom: 0 solid !important;
 	box-shadow: none;
 	border-left: 1px solid #D8D8D8;
-	font-size: 0px;
+	font-size: 0;
 	background-image: url(%%spritesheet%%);
 	background-position: -112px -49px;
 }
 
-#url-field #suggest-title { height: 0px; }
+#url-field #suggest-title { height: 0; }
 #url-field button:hover { background-color: #DEDEDE; }
 
 #url-field button:before
@@ -1498,7 +1498,7 @@ form#newlink.submit.content { margin-top: 40px; }
 
 .flairselector li
 {
-	padding: 3px 0px 3px 0px;
+	padding: 3px 0 3px 0;
 	width: 182px;
 }
 
@@ -1517,12 +1517,12 @@ form#newlink.submit.content { margin-top: 40px; }
 /* LINKFLAIRS */
 .linkflairlabel
 {
-	padding: 0px 6px 1px 10px;
+	padding: 0 6px 1px 10px;
 	height: auto;
-	border-radius: 0px;
+	border-radius: 0;
 	border-top-left-radius: 16px;
 	border-bottom-left-radius: 16px;
-	border: 0px solid;
+	border: 0 solid;
 	color: #333;
 	font-weight: bold;
 	font-style: normal;
@@ -1577,7 +1577,7 @@ form#newlink.submit.content { margin-top: 40px; }
 	font-size: small !important;
 	font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
 	border: 1px solid #DADADA;
-	padding: 0px 3px 2px 3px;
+	padding: 0 3px 2px 3px;
 	cursor: help;
 }
 
@@ -1585,7 +1585,7 @@ form#newlink.submit.content { margin-top: 40px; }
 div.tabpane-content
 {
 	padding: 4px 4px 4px 4px;
-	border: 0px solid #e5e5e5;
+	border: 0 solid #e5e5e5;
 	border-bottom-width: 3px;
 	background-color: #fff;
 	width: 1080px;
@@ -1625,8 +1625,8 @@ div.tabpane-content
 					}
 
 					.flairrow .tagline {
-						margin-right: 0px;
-						margin-left: 0px;
+						margin-right: 0;
+						margin-left: 0;
 						width: 150px;
 						font-size: 100%;
 					}
@@ -1644,7 +1644,7 @@ div.tabpane-content
 }
 
 .tabmenu li#tab-grant.selected, .tabmenu li#tab-templates.selected, 
-					.tabmenu li#tab-link_templates.selected { margin: 7px 0px 4px 0px; }
+					.tabmenu li#tab-link_templates.selected { margin: 7px 0 4px 0; }
 .tabmenu li#tab-grant.selected a, .tabmenu li#tab-grant a:hover,
 					.tabmenu li#tab-templates.selected a, .tabmenu li#tab-templates a:hover, 
 					.tabmenu li#tab-link_templates.selected a, .tabmenu li#tab-link_templates a:hover { color: #333; }
@@ -1652,7 +1652,7 @@ div.tabpane-content
 /* WIKI Page */
 .wiki-page .wiki-page-content
 {
-	margin: 5px 320px 10px 0px;
+	margin: 5px 320px 10px 0;
 	padding: 5px 10px 5px 10px;
 	background-color: #fff;
 	border: 1px solid #d8d8d8;
@@ -1687,7 +1687,7 @@ div.tabpane-content
 .wiki-page .pageactions
 {
 	border: none;
-	border-radius: 0px;
+	border-radius: 0;
 }
 
 .wiki-page .pageactions .wikiaction
@@ -1701,7 +1701,7 @@ div.tabpane-content
 .wiki-page .pageactions .wikiaction-current
 {
 	background-color: #5b92fa;
-	border-radius: 0px;
+	border-radius: 0;
 	color: #fff;
 }
 
@@ -1730,7 +1730,7 @@ div.tabpane-content
 	width: 175px;
 }
 
-.wiki-page .wiki-page-content .discussionlink a { padding-left: 0px; }
+.wiki-page .wiki-page-content .discussionlink a { padding-left: 0; }
 .wiki-page .nextprev { display: none; }
 .wiki-page-content em, .wiki-page-content form#editform label { font-size: 120%; }
 
@@ -1769,7 +1769,7 @@ div.tabpane-content
 .stylesheet-customize-container textarea
 {
 	margin: 0;
-	padding: 0px;
+	padding: 0;
 	border: 1px solid #d8d8d8;
 	border-bottom: 1px solid #d8d8d8;
 	border-radius: 3px;
@@ -1787,7 +1787,7 @@ div.tabpane-content
 
 .sheets .col textarea:hover { border-color: #B1B1B1; }
 .sheets .col textarea:focus { border-color: #5b92fa; }
-.sheets { margin-right: 0px; }
+.sheets { margin-right: 0; }
 
 #images
 {
@@ -1800,7 +1800,7 @@ div.tabpane-content
 
 ul#image-preview-list
 {
-	margin: 15px 0px 0px 0px;
+	margin: 15px 0 0 0;
 	padding-bottom: 80px;
 	font-size: 14px;
 }
@@ -1830,8 +1830,8 @@ ul#image-preview-list
 .commentarea>.usertext
 {
 	overflow: visible;
-	margin: 0px 0px 10px 0px;
-	padding: 0px 0px 0px 0px;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
 }
 
 a.author
@@ -1876,7 +1876,7 @@ a.author.moderator:after { content: ""; }
 .commentarea .menuarea
 {
 	display: inline;
-	margin: 0 0px 10px -320px;
+	margin: 0 0 10px -320px;
 	padding: 0;
 	color: #c0c0c0;
 	font-weight: normal;
@@ -1905,7 +1905,7 @@ a.author.moderator:after { content: ""; }
 {
 	padding: 5px;
 	border-color: #DFDDDD;
-	box-shadow: 0px 1px 1px #C9C9C9;
+	box-shadow: 0 1px 1px #C9C9C9;
 	font-family: arial, sans-serif;
 }
 
@@ -2002,7 +2002,7 @@ hr
 {
 	margin-top: 10px;
 	margin-left: 15px;
-	border-left: 0px solid;
+	border-left: 0 solid;
 }
 
 /* H2 3 4 5 markup */
@@ -2028,7 +2028,7 @@ hr
 .footer-parent
 {
 	margin-top: 120px;
-	padding-top: 0px;
+	padding-top: 0;
 	background-color: transparent;
 }
 
@@ -2063,7 +2063,7 @@ hr
 /* Some login stuff */
 .login-form-side
 {
-	border: 0px;
+	border: 0;
 	border-bottom: 1px solid #d8d8d8;
 	font-size: 120%;
 	margin: 10px;
@@ -2071,7 +2071,7 @@ hr
 
 .login-form-side input[type=text], .login-form-side input[type=password]
 {
-	margin: 10px 0px;
+	margin: 10px 0;
 	width: 265px;
 }
 
@@ -2082,7 +2082,7 @@ hr
 	margin-bottom: 30px;
 	padding: 10px 10px 10px 10px;
 	background-color: white;
-	border: 0px solid;
+	border: 0 solid;
 	border-radius: 2px;
 	color: #3b3b3b;
 	font-size: 16px;
@@ -2092,8 +2092,8 @@ hr
 .cover
 {
 	position: fixed;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	z-index: 1000;
 	width: 100%;
 	height: 100%;
@@ -2105,8 +2105,8 @@ hr
 .search-page #search
 {
 	position: relative;
-	top: 0px;
-	margin: 0px 150px 0px 80px;
+	top: 0;
+	margin: 0 150px 0 80px;
 	height: 50px;
 	background: none !important;
 	background-color: transparent;
@@ -2115,7 +2115,7 @@ hr
 
 .search-page .searchpane
 {
-	margin: 5px 320px 5px 0px;
+	margin: 5px 320px 5px 0;
 	padding-left: 96px;
 	height: 120px;
 }
@@ -2123,12 +2123,12 @@ hr
 .search-page .raisedbox
 {
 	padding: 5px;
-	border: 0px solid;
+	border: 0 solid;
 }
 
 .search-page #search input[type=text]
 {
-	padding: 5px 0px 5px 40px;
+	padding: 5px 0 5px 40px;
 	font-size: 150%;
 }
 
@@ -2139,7 +2139,7 @@ hr
 	padding: 10px;
 	box-shadow: none;
 	color: #3b3b3b;
-	border: 0px solid;
+	border: 0 solid;
 	border-bottom: 3px solid #E5E5E5;
 }
 
@@ -2151,7 +2151,7 @@ hr
 .res .keyHighlight
 {
 	background-color: transparent;
-	outline: 0px solid;
+	outline: 0 solid;
 }
 
 .res .RES-keyNav-activeElement, .res .commentarea .RES-keyNav-activeElement .md, .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed { background-color: transparent !important; }
@@ -2159,7 +2159,7 @@ hr
 .res .RES-keyNav-activeElement
 {
 	outline: 1px dashed #C5C5C5 !important;
-	border-radius: 0px !important;
+	border-radius: 0 !important;
 }
 
 .res #searchexpando
@@ -2170,32 +2170,32 @@ hr
 
 .res .content .RESBigEditorPop
 {
-	border-bottom: 0px solid !important;
+	border-bottom: 0 solid !important;
 	border: 1px solid #d8d8d8 !important;
 	width: 150px !important;
 	text-align: left !important;
 	padding: 2px;
-	margin: 0px 12px 0px 12px;
+	margin: 0 12px 0 12px;
 }
 
 /* Res Live Preview */
 .RESDialogSmall
 {
 	border: 1px solid #DFDFDF!important;
-	border-radius: 0px!important;
+	border-radius: 0!important;
 }
 
 .RESDialogSmall > h3
 {
 	background-color: #f4f4f4!important;
 	border-bottom: 1px solid #DFDFDF!important;
-	border-radius: 0px!important;
+	border-radius: 0!important;
 	color: #333!important;
 }
 
 .res .comment
 {
-	margin-top: 0px !important;
+	margin-top: 0 !important;
 	margin-bottom: 3px !important;
 	border: 1px solid #f8f8f8 !important;
 }
@@ -2214,12 +2214,12 @@ hr
 
 .RESshortcutside
 {
-	padding: 0px 0px !important;
+	padding: 0 0 !important;
 	background: none repeat-x scroll center left !important;
 	background-color: white !important;
 	background-image: none !important;
-	border: 0px solid !important;
-	border-radius: 0px !important;
+	border: 0 solid !important;
+	border-radius: 0 !important;
 	color: #5b92fa !important;
 	text-transform: capitalize !important;
 	font-weight: 500 !important;
@@ -2229,22 +2229,22 @@ hr
 
 .RESshortcutside.remove
 {
-	padding: 0px 3px 0px 0px !important;
+	padding: 0 3px 0 0 !important;
 	background-color: white !important;
 	background-image: none !important;
-	border: 0px solid !important;
+	border: 0 solid !important;
 	color: #3b3b3b !important;
 	font-weight: lighter !important;
 }
 
 .RESDashboardToggle
 {
-	padding: 0px 0px !important;
+	padding: 0 0 !important;
 	background: none repeat-x scroll center left !important;
 	background-color: white !important;
 	background-image: none !important;
-	border: 0px solid !important;
-	border-radius: 0px !important;
+	border: 0 solid !important;
+	border-radius: 0 !important;
 	color: #5b92fa !important;
 	text-transform: capitalize !important;
 	font-weight: 500 !important;
@@ -2254,10 +2254,10 @@ hr
 
 .RESDashboardToggle.remove
 {
-	padding: 2px 6px 2px 0px !important;
+	padding: 2px 6px 2px 0 !important;
 	background-color: white !important;
 	background-image: none !important;
-	border: 0px solid !important;
+	border: 0 solid !important;
 	color: #3b3b3b !important;
 	font-weight: lighter !important;
 }
@@ -2302,7 +2302,7 @@ hr
 	width: inherit !important;
 	background-color: white !important;
 	border: 1px solid #d8d8d8 !important;
-	border-top: 0px solid !important;
+	border-top: 0 solid !important;
 	border-bottom: 3px solid #d8d8d8 !important;
 	border-radius: 2px !important;
 }
@@ -2318,8 +2318,8 @@ hr
 .RESSubscriptionButton
 {
 	background-color: white !important;
-	border: 0px solid !important;
-	border-radius: 0px !important;
+	border: 0 solid !important;
+	border-radius: 0 !important;
 	color: #5b92fa !important;
 }
 
@@ -2328,7 +2328,7 @@ hr
 	right: 10px;
 	top: 141px !important;
 	padding: 4px 10px 5px 2px !important;
-	border-radius: 0px !important;
+	border-radius: 0 !important;
 }
 
 .res #userbarToggle { display: none !important; }
@@ -2338,7 +2338,7 @@ hr
 {
 	padding: 2px 5px !important;
 	background-color: #DD4B39!important;
-	border-radius: 0px !important;
+	border-radius: 0 !important;
 	color: #fff !important;
 }
 
@@ -2348,7 +2348,7 @@ hr
 {
 	padding: 2px 5px !important;
 	background-color: #53a93f !important;
-	border-radius: 0px !important;
+	border-radius: 0 !important;
 	color: #fff !important;
 }
 
@@ -2363,7 +2363,7 @@ hr
 	padding: 2px 3px !important;
 	background-color: #53a93f !important;
 	border: none !important;
-	border-radius: 0px !important;
+	border-radius: 0 !important;
 }
 
 /* CSS3 on reddit! */
@@ -2499,7 +2499,7 @@ body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body { backgrou
 	-webkit-box-shadow: none;
 }
 
-.res-nightmode .tabmenu li { margin: 8px 0px 0px 0px; }
+.res-nightmode .tabmenu li { margin: 8px 0 0 0; }
 
 /* I swear to god who thinks pink backgrounds are a good idea */
 .res-nightmode #header-bottom-left, .res-nightmode ul.tabmenu li.selected a, .res-nightmode .redditname a.active, 
@@ -2526,10 +2526,10 @@ body:lang(nt), #search input[type=text]:lang(nt), .res-nightmode body { backgrou
 /* Button */
 button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-content .wiki_button:lang(nt)
 {
-	padding: 0px 8px 0px 8px;
+	padding: 0 8px 0 8px;
 	background-color: transparent;
 	border: 1px solid #414955;
-	border-radius: 0px;
+	border-radius: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	color: #e5e5e5 !important;
@@ -2538,7 +2538,7 @@ button:lang(nt), #search input[type='submit']:lang(nt), .wiki-page .wiki-page-co
 
 button:lang(nt):hover, #search input[type='submit']:lang(nt):hover, .wiki-page .wiki-page-content .wiki_button:lang(nt):hover
 {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 	border-color: #414955;
 	border-width: 1px;
 	color: #fff !important;
@@ -2548,7 +2548,7 @@ button:lang(nt):hover, #search input[type='submit']:lang(nt):hover, .wiki-page .
 
 button:lang(nt):active, #search input[type='submit']:lang(nt):active, .wiki-page .wiki-page-content .wiki_button:lang(nt):active
 {
-	padding-bottom: 0px;
+	padding-bottom: 0;
 	background-color: #1C1F26;
 	border-color: #414955;
 	border-width: 1px;
@@ -2632,7 +2632,7 @@ div.titlebox span.number:after { content: " readers"; }
 	/* 50% of the TOTAL height of the image. */
 }
 
-.pagename a:hover { background-position: 0px -43px; }
+.pagename a:hover { background-position: 0 -43px; }
 
 /* Replace the 77 with your height */
 /* --------------------------- */
