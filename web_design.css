@@ -1431,7 +1431,11 @@ form#newlink.submit.content { margin-top: 40px; }
 	border: 1px solid #D8D8D8;
 }
 
-#url-field button:hover { background-color: #5b92fa; }
+#url-field button:hover
+{
+	background-color: #5b92fa;
+	border-color: #5b92fa;
+}
 
 #url-field .error.NO_URL.field-url
 {
