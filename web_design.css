@@ -220,7 +220,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 	display: block;
 	height: 2.5em;
 	width: 7em;
-	transition: all 0.2s ease;
+	transition: all 0.15s ease;
 }
 
 .redditname {
