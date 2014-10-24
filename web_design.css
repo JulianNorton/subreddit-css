@@ -1424,7 +1424,8 @@ form#newlink.submit.content { margin-top: 40px; }
 	color: #000;
 }
 
-.linefield .usertext-edit textarea { height: 500px; }
+.usertext-edit {box-sizing: border-box; max-width: 500px; width: 100%;}
+.linefield .usertext-edit textarea { height: 500px; box-sizing: border-box; max-width: 500px; width: 100%;}
 .submit-page .content textarea, .submit-page .content input[type=url], .submit-page .content input[type=text] { width: 488px; }
 
 .submit-page .content button
@@ -1878,6 +1879,8 @@ ul#image-preview-list
 
 .commentarea>.usertext
 {
+	box-sizing: border-box;
+	width: 100%;
 	overflow: visible;
 	margin: 0 0 10px 0;
 	padding: 0;
