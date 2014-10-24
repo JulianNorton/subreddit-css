@@ -1964,6 +1964,21 @@ a.author.moderator:after { content: ""; }
 	line-height: 1.35em;
 }
 
+.md code
+{
+	background: #eee;
+	border-bottom: 1px solid #5B92FA;
+	padding: 0 0.4em;
+	border-radius: 2px;
+}
+
+.md pre code {
+	display: block;
+	padding: 1em;
+	border-left: 4px solid #5B92FA;
+	border-bottom: 0;
+}
+
 hr
 {
 	border-width: 1px;
