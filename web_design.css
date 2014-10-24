@@ -2017,6 +2017,8 @@ a.author.moderator:after { content: ""; }
 	padding: 1em;
 	border-left: 4px solid #5B92FA;
 	border-bottom: 0;
+	overflow: hidden;
+	overflow-x: auto;
 }
 
 hr
