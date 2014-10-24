@@ -79,7 +79,7 @@ a:hover { text-decoration: underline; }
 .comments-page #noresults:after { content: "... so go ahead and tell us what you think!"; }
 
 /* General Button*/
-button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button
+button, .wiki-page .wiki-page-content .wiki_button
 {
 	margin: 3px 3px 3px 3px;
 	padding: 0 8px 1px 8px;
@@ -97,7 +97,7 @@ button, #search input[type='submit'], .wiki-page .wiki-page-content .wiki_button
 	transition: all 0.2s ease;
 }
 
-button:hover, #search input[type='submit']:hover, .wiki-page .wiki-page-content .wiki_button:hover
+button:hover, .wiki-page .wiki-page-content .wiki_button:hover
 {
 	border-color: #bababa;
 	color: #333 !important;
@@ -106,7 +106,7 @@ button:hover, #search input[type='submit']:hover, .wiki-page .wiki-page-content 
 	box-shadow: 0 1px 0 #bababa, 0 2px 0 #e2e0e0;
 }
 
-button:active, #search input[type='submit']:active, .wiki-page .wiki-page-content .wiki_button:active
+button:active, .wiki-page .wiki-page-content .wiki_button:active
 {
 	background-color: #e5e5e5;
 	border-color: #a7a7a7;
@@ -227,7 +227,7 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 .pagename {
         color: #fff;
         line-height: 4em;
-        margin-top: 1.4em;
+        margin-top: 1.3em;
 }
 
 .pagename a {
@@ -680,14 +680,18 @@ div.titlebox span.word { display: none; }
 	border-bottom: 2px solid #306cd1;
 }
 
+#search {
+        overflow: hidden;
+}
+
 #search input[type=text]
 {
 	margin: 17px 0 0 0;
-	padding: 5px 0 5px 40px;
-	width: 258px;
-	background-image: url(%%spritesheet%%);
-	background-position: -129px 0;
+	padding: 5px 0 5px 35px;
+        background: url(%%spritesheet%%);
+        background-position: -129px 0;
 	background-repeat: no-repeat;
+	width: 100%;
 	border: none;
 	border-top: 1px solid #d5d5d5;
 	border-bottom: 1px solid #d5d5d5;
@@ -696,23 +700,33 @@ div.titlebox span.word { display: none; }
 	font-weight: normal;
 	font-size: 16px;
 	font-family: arial, sans-serif !important;
+        transition: border-color 0.2s linear, background-position 0.25s ease, padding-left 0.25s ease;
 }
 
 #search input[type=text]:focus
 {
-	padding: 5px 0 5px 40px;
-	width: 258px;
+        background-position: -160px 0;
+        padding-left: 20px;
 	outline: none !important;
-	border: none;
-	border-top: 1px solid #d5d5d5;
-	border-bottom: 1px solid #d5d5d5;
-	border-left: 2px solid #4285f4;
+	border-left-color: #4285f4;
 	color: #000;
+}
+
+#search input[type=submit] {
+        padding: 8px;
+        margin-top: 18px;
+        margin-left: 0;
+        transition: margin-left 0.25s ease;
+}
+
+#search input[type=text]:focus + input,
+#search input[type=submit]:active {
+        margin-left: -30px;
 }
 
 #searchexpando
 {
-	margin: 0 0 5px 0;
+	margin: 1px 0 5px;
 	padding: 5px 5px 0 15px;
 	height: 25px;
 	background-color: #f5f5f5;
@@ -1371,7 +1385,7 @@ form#newlink.submit.content { margin-top: 40px; }
 }
 
 .submit-page textarea, .roundfield input[type=url], .roundfield input[type=text], .login-form-side input[type=text], .login-form-side input[type=password],
-				.linefield textarea, .linefield input[type="text"], .flairlist .flaircell input[type="text"], .linkinfo .shortlink input, .search-page #search input[type=text]
+				.linefield textarea, .linefield input[type="text"], .flairlist .flaircell input[type="text"], .linkinfo .shortlink input
 {
 	margin: 0;
 	padding: 5px;
@@ -1386,10 +1400,10 @@ form#newlink.submit.content { margin-top: 40px; }
 }
 
 .submit-page textarea:hover, .roundfield input[type=url]:hover, .roundfield input[type=text]:hover, .login-form-side input[type=text]:hover, .login-form-side input[type=password]:hover,
-					.linefield textarea:hover, .linefield input[type="text"]:hover, .flairlist .flaircell input[type="text"]:hover, .linkinfo .shortlink input:hover, .search-page #search input[type=text] { border: 1px solid #bebebe; }
+					.linefield textarea:hover, .linefield input[type="text"]:hover, .flairlist .flaircell input[type="text"]:hover, .linkinfo .shortlink input:hover { border: 1px solid #bebebe; }
 
 .submit-page textarea:focus, .roundfield input[type=url]:focus, .roundfield input[type=text]:focus, .login-form-side input[type=text]:focus, .login-form-side input[type=password]:focus,
-					.linefield textarea:focus, .linefield input[type="text"]:focus, .flairlist .flaircell input[type="text"]:focus, .linkinfo .shortlink input:focus, .search-page #search input[type=text]
+					.linefield textarea:focus, .linefield input[type="text"]:focus, .flairlist .flaircell input[type="text"]:focus, .linkinfo .shortlink input:focus
 {
 	border: 1px solid #4d90fe;
 	color: #000;
@@ -2142,7 +2156,6 @@ hr
 	position: relative;
 	top: 0;
 	margin: 0 150px 0 80px;
-	height: 50px;
 	background: none !important;
 	background-color: transparent;
 	text-align: left;
@@ -2163,7 +2176,6 @@ hr
 
 .search-page #search input[type=text]
 {
-	padding: 5px 0 5px 40px;
 	font-size: 150%;
 }
 
