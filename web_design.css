@@ -211,31 +211,38 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 /*	Subreddit Logo by /u/Arcshine
 -----------------------------------*/
 
+#header-bottom-left {
+    text-align: center;
+}
+
 .pagename,
 .pagename a,
 .pagename a:before {
-	display: block;
+	display: inline-block;
 	height: 2.5em;
-	width: 7em;
 	transition: all 0.3s ease-out;
+        vertical-align: middle;
 }
 
 .pagename {
-	overflow: hidden;
-	border: 2px solid #fff;
-	border-radius: 4px;
-	font-size: 2.2em;
-	margin:0 auto;
+        color: #fff;
+        line-height: 4em;
+        margin-top: 1.4em;
 }
 
 .pagename a {
+	overflow: hidden;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	font-size: 1.7em;
+	margin: 0 0.4em;
+        padding: 0 0.7em;
 	position: relative;
 	color: #fff;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 	font-variant:normal;
 	letter-spacing: 0.02em;
-	line-height: 2.4em;
 	text-align: center;
 }
 
@@ -247,8 +254,9 @@ button:active, #search input[type='submit']:active, .wiki-page .wiki-page-conten
 .pagename a:before {
 	content:'';
 	position: absolute;
-	top: 2.5em;
+	top: 100%;
 	left: 0;
+        right: 0;
 	background: #fff;
 	z-index: -1;
 }
