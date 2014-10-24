@@ -2009,29 +2009,11 @@ a.author.moderator:after { content: ""; }
 	border-radius: 2px;
 }
 
-.md pre {
-	margin: 10px;
-	padding: 10px;
-	background: #eeeeee;
-}
-
 .md pre code {
 	display: block;
+	padding: 1em;
 	border-left: 4px solid #5B92FA;
 	border-bottom: 0;
-	padding: 0 0 0 30px;
-	position: relative;
-	overflow: hidden;	
-}
-
-.md pre code::before {
-	content: '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50';
-	display: block;
-	position: absolute;
-	width: 24px;
-	word-wrap: break-word;
-	left: 5px;
-	position: absolute;
 }
 
 hr
