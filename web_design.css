@@ -364,6 +364,10 @@ button:active, .wiki-page .wiki-page-content .wiki_button:active
 	text-decoration: none;
 }
 
+#header-bottom-right .separator {
+    margin: 0 1.2ex;
+}
+
 /* Mail / Modmail icons */
 #mail
 {
@@ -1035,6 +1039,7 @@ div.titlebox span.word { display: none; }
 	font-weight: bold;
 	font-family: Arial, sans-serif;
 	overflow: visible;
+        margin-bottom: .3em;
 }
 
 .link .title:hover { color: #5b92fa !important; }
@@ -1215,6 +1220,7 @@ div.titlebox span.word { display: none; }
 {
 	font-weight: normal;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        margin-top: .6em;
 }
 
 .link .midcol { margin-right: 7px; }
