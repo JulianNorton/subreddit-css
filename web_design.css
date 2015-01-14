@@ -279,7 +279,7 @@ button:active, .wiki-page .wiki-page-content .wiki_button:active
 	left: 0;
 	padding: 0;
 	height: 44px;
-	background-color: transparent;
+	background-color: #fff;
 	border-bottom: 0 solid;
 	color: #999;
 	list-style-type: none;
