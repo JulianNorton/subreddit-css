@@ -2502,7 +2502,6 @@ hr
     }
 }
 
-
 body { transition: all 0.25s ease; }
 a, .domain a { transition: border-color 0.25s; }
 #sr-header-area { transition: opacity 0.5s; }
