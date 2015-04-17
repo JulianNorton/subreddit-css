@@ -2435,31 +2435,71 @@ hr
 
 /* CSS3 on reddit! */
 
+@media (max-width: 800px){
+    #header-bottom-right{
+        top: 176px;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        padding-bottom: 15px;
+        padding-right: 0;
+    }
+
+    #header-bottom-right:hover
+    {
+        width: 100%;
+    }
+
+    .content{
+        margin-top: 65px;
+    }
+
+    .seachpane, .searchfacets, .menuarea{
+        margin-right: 10px;
+    }
+}
+
 @media (max-width: 800px) and (min-width: 601px)
 {
-	.link, .commentarea { margin-right: 10px; }
-	.side { display: none; }
+    .link, .commentarea { margin-right: 10px; }
+    .side { display: none; }
 }
 
 @media (max-width: 600px) and (min-width: 100px)
 {
-	
-	#header-bottom-right
-	{
-		margin-right: 12px;
-		width: 25px;
-		overflow: hidden;
-	}
-	
-	#header-bottom-right:hover
-	{
-		width: auto;
-		overflow: visible;
-	}
-	
-	.listing-page .tabmenu li a[href*="/ads"] { display: none; }
-	.link, .commentarea { margin-right: 10px; }
-	.side { display: none; }
+
+    .listing-page .tabmenu li a[href*="/ads"] { display: none; }
+    .link, .commentarea { margin-right: 10px; }
+    .side { display: none; }
+}
+
+@media (max-width: 400px) and (min-width: 100px){
+    .link .thumbnail{
+        display: none;
+    }
+
+    #header-bottom-left .tabmenu
+    {
+        position: relative;
+        top: 59px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        width: 100%;
+        min-width: 0;
+    }
+
+    #header-bottom-left .tabmenu li{
+        float: left;
+    }
+
+    #header-bottom-left .tabmenu li a
+    {
+        padding: 0;
+    }
+
+    .search-page #search{
+        margin: 0 10px 0 80px;
+    }
 }
 
 body { transition: all 0.25s ease; }
