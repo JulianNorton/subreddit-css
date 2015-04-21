@@ -2823,41 +2823,6 @@
 
 		}
 
-
-
-		/* Experimental fadein CSS */
-		.listing-page .sitetable, .search-page .sitetable, .top-page .menuarea .spacer,
-		.organic-listing {
-			animation-name: fadein;
-			animation-duration: 0.75s;
-			animation-iteration-count: 1;
-
-			-webkit-animation-name: fadein;
-			-webkit-animation-duration: 0.75s;
-			-webkit-animation-iteration-count: 1;
-		}
-
-
-				@-webkit-keyframes fadein {
-				  0%   {opacity:0;transform:translateY(48px);-webkit-transform:translateY(48px);}
-				  100% {opacity:1;transform:translateY(0px);-webkit-transform:translateY(0px);}
-				}
-			
-				@-moz-keyframes fadein {
-				  0%   {opacity:0;transform:translateY(48px);-webkit-transform:translateY(48px);}
-				  100% {opacity:1;transform:translateY(0px);-webkit-transform:translateY(0px);}
-				}
-			
-				@-o-keyframes fadein {
-				  0%   {opacity:0;transform:translateY(48px);-webkit-transform:translateY(48px);}
-				  100% {opacity:1;transform:translateY(0px);-webkit-transform:translateY(0px);}
-				}
-			
-				@keyframes fadein {
-				  0%   {opacity:0;transform:translateY(48px);-webkit-transform:translateY(48px);}
-				  100% {opacity:1;transform:translateY(0px);-webkit-transform:translateY(0px);}
-				}
-
 		/* Experimental pop-in message */
 		.flairselector {
 			animation-name: popin;
