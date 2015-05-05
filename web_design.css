@@ -1686,7 +1686,10 @@
 
 					.top-page .menuarea .spacer {overflow: visible;}
 
-					.top-page .content .menuarea .drop-choices.lightdrop a.choice, .top-page .content .menuarea .drop-choices.lightdrop form {display:inline;}
+					.top-page .content .menuarea .drop-choices.lightdrop a.choice, .top-page .content .menuarea .drop-choices.lightdrop form {
+						display:inline;
+						margin-left: 15px;
+					}
 					.top-page .content .menuarea .dropdown-title.lightdrop {visibility: hidden;}
 
 					.top-page .content .menuarea {
