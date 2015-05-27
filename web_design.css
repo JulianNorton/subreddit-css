@@ -23,10 +23,9 @@
 
 			-------------------------------------------------------------------------- */
 
-
-
-		*, *:before, *:after { -webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box;}
-
+		*,:before,:after{-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial}
+		:not(#tb-bottombar):not(#tb-bottombar-hidden),:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+		
 		body {
 			overflow-x: hidden;
 			background-color: #eeeeee;
