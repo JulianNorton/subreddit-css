@@ -2965,6 +2965,38 @@
 
 ==================================================================================================================================*/
 
+/* --- Addon: Content Header Announcement Message --- */
+body.listing-page>.content {margin-top: 132px;}
+
+.side .titlebox .md h5 {
+    position: absolute;
+    right: 332px;
+    left: 16px;
+    z-index: 102;
+    height: auto;
+    top: 96px;
+    padding: 11px 11px 11px 16px;
+    border-radius: 2px;
+    background-color: #FFF;
+    color: #4D5763;
+    font-weight: normal;
+    text-decoration: none;
+    border-bottom: 1px solid #F2F2F2;
+    border-radius: 2px 2px 0 0;
+    margin: 0;
+    line-height: 1;
+}
+
+    .side .titlebox .md h5 a {
+        font-weight: bold;
+        color: #4F8EF7;
+    }
+
+        .side .titlebox .md h5 a:hover {text-decoration: underline;}
+
+/* --- End Addon --- */
+
+
 /* --- Addon: Floating Announcement Message --- */
 .side .titlebox .md h6 {
     position: absolute;
