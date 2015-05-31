@@ -2964,3 +2964,27 @@
 
 
 ==================================================================================================================================*/
+
+/* --- Addon: Floating Announcement Message --- */
+.side .titlebox .md h6 {
+    position: absolute;
+    width: 300px;
+    right: 16px;
+    height: auto;
+    top: 42px;
+    padding: 11px;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #4D5763;
+    font-weight: normal;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.24);
+}
+
+    .side .titlebox .md h6 a {
+        font-weight: bold;
+        color: #4F8EF7;
+    }
+
+        .side .titlebox .md h6 a:hover {text-decoration: underline;}
+
+/* --- End Addon --- */
