@@ -3041,10 +3041,10 @@ Added
   z-index: 99;
 }
 
-.linkflair-highlight {
+.linkflair-highlight .linkflairlabel {
 	background-color: #F87B68;
 }
 
-.linkflair-advice {
+.linkflair-advice .linkflairlabel {
 	background-color: #9BC42B;
 }
