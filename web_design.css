@@ -3040,3 +3040,11 @@ Added
 .drop-choices.lightdrop {
   z-index: 99;
 }
+
+.highlight {
+	background-color: #F87B68;
+}
+
+.advice {
+	background-color: #9BC42B;
+}
