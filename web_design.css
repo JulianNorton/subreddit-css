@@ -2001,7 +2001,7 @@
 									}
 
 
-										.comment .expand:hover {
+										.comment.collapsed .expand:hover {
 											color: #fff;
 											text-decoration: none;
 											background-color: #4F8EF7;
