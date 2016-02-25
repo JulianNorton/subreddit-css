@@ -924,8 +924,19 @@
 					margin-right: 316px;
 					box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
 					position: relative;
+					background-color: #fff;
 				}
-
+					.comment.thing.odd{
+						padding: 16px 10px 5px 10px;
+					}
+						.midcol{
+							width: 36px;
+    							margin-right: 2px;
+						}
+						.parent{
+							margin-bottom: 10px;
+						}
+					
 					.link {
 						margin: 0px;
 						padding: 0;
