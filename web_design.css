@@ -1250,8 +1250,8 @@
 
 								.RESUserTagImage:hover {opacity: 1 !important;}
 
-							form.res-sr-style-toggle {
-								display: block;
+							.titlebox form.res-sr-style-toggle {
+								display: block !important;
 							}
 
 
