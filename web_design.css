@@ -1251,7 +1251,7 @@
 								.RESUserTagImage:hover {opacity: 1 !important;}
 
 							.titlebox form.res-sr-style-toggle {
-								display: block !important;
+								display: block;
 							}
 
 
