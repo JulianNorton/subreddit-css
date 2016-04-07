@@ -1250,6 +1250,10 @@
 
 								.RESUserTagImage:hover {opacity: 1 !important;}
 
+							form.res-sr-style-toggle {
+								display: block;
+							}
+
 
 						/* Comment / Share / Report */
 						.link .flat-list {margin-top: 3px;}
