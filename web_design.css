@@ -102,6 +102,7 @@
 				margin: 0px;
 				height: 0px;
 				border: none;
+				z-index: 10000;
 			}
 
 
