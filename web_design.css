@@ -165,6 +165,10 @@ Added
   margin-top: 231px
 }
 
+#header-bottom-left > span > a {
+	text-decoration:none;
+}
+
 #search {
   top: 332px
 }
