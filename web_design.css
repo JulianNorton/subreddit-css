@@ -178,3 +178,15 @@ Added
 }
 
 /* End Removal of pointless image on sidebar */
+
+
+/* Removal of original footer art */
+.footer-parent {
+    height: 320px;
+    padding: 38px 0 64px;
+    background-position: 0;
+    background-size: cover;
+    background-color: #30333A;
+    background-image: url(%%headerimg%%);
+}
+/* End Removal of original footer art */
