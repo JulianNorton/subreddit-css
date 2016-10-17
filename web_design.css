@@ -220,9 +220,7 @@ body .btn, body button {
 	margin: 0px auto;
 	padding: 16px;
 }
-.gold-wrap.inline-gold .fancy-content .transaction-summary em:before {
-	content: "/u/";
-}
+
 .gold-wrap.inline-gold .fancy-content .transaction-summary em {
 	font-weight: bold;
 }
@@ -239,7 +237,7 @@ body .btn, body button {
     font-family: inherit;
     font-style: normal;
 }
-.gold-form .gold-payment textarea {
+.gold-form.gold-payment textarea {
 	margin: 0;
 	border-radius: 0;
 }
