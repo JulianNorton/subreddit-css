@@ -190,3 +190,66 @@ Added
     background-image: url(%%headerimg%%);
 }
 /* End Removal of original footer art */
+
+
+/* Give Gold Box Fix */
+/* Font & positioning adjustments with adherence to theme */
+body .btn, body button {
+	cursor: pointer;
+}
+.gold-wrap {
+	font-family: inherit;
+}
+
+.gold-wrap.inline-gold .fancy {
+	border-radius: 2px;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.16);
+	border: none;
+	background-color: #ffffff;
+	margin-left: 30px;
+}
+.fancy:before, .fancy:after, .fancy .fancy-inner:before, .fancy .fancy-inner:after {
+	display: none;
+}
+.gold-wrap.inline-gold .fancy-inner {
+	border: none;
+	margin: 0;
+	/*background-image: none;*/ /*include this line if you want the laurel hidden*/
+}
+.gold-wrap.inline-gold .fancy-content {
+	margin: 0px auto;
+	padding: 16px;
+}
+
+.gold-wrap.inline-gold .fancy-content .transaction-summary em {
+	font-weight: bold;
+}
+
+.gold-wrap.inline-gold .gold-form {
+	margin: 0;
+}
+.gold-wrap.inline-gold .gold-form .gold-button {
+	text-transform: capitalize;
+	font-family: inherit;
+	font-weight: 400;
+}
+.gold-wrap input[type=text], .gold-wrap input[type=email], .gold-wrap textarea {
+    font-family: inherit;
+    font-style: normal;
+}
+.gold-form.gold-payment textarea {
+	margin: 0;
+	border-radius: 0;
+}
+.gold-payment .close-button {
+	margin: 6px;
+	box-shadow: none;
+	padding: 0;
+	opacity: 0.45;
+}
+.gold-form .note {
+	font-size: 12px;
+	line-height: 2;
+	color: #686868;
+}
+/* End Give Gold Box Fix */
