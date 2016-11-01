@@ -85,7 +85,7 @@ body.listing-page>.content {margin-top: 45px;}
 
 
 /* --- Addon: Colorize the Subreddit Info Box --- */
-.side .titlebox h1.redditname:before {background-color: #3F84B3;}
+.side .titlebox h1.redditname:before {background-color: #ff4500;}
 .side .titlebox h1.redditname a, .titlebox span.subscribers {color: #fff;}
 
 /* --- End Addon --- */
@@ -94,7 +94,7 @@ body.listing-page>.content {margin-top: 45px;}
 
 	/* Buttons */
 	.morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
-	.submit_text.enabled.roundfield, body .btn, body button {background-color: #3F84B3;}
+	.submit_text.enabled.roundfield, body .btn, body button {background-color: #ff4500;}
 
 		.morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #4C94C1;}
 		.morelink:active , .side .titlebox .md h3 a:active , .btn:active , body button:active {background-color: #2E6E96;}
