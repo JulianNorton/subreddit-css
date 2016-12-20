@@ -253,3 +253,8 @@ body .btn, body button {
 	color: #686868;
 }
 /* End Give Gold Box Fix */
+
+/* Un-capitalize title input in submission form */
+.submit-page .roundfield .title {
+    text-transform: none;
+}
