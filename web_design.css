@@ -125,7 +125,7 @@ Added
 }
 
 .drop-choices.lightdrop {
-  z-index: 99;
+  z-index: 1000;
 }
 
 .linkflair-highlight .linkflairlabel {
