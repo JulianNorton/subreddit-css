@@ -258,3 +258,8 @@ body .btn, body button {
 .submit-page .roundfield .title {
     text-transform: none;
 }
+
+/* Reduce padding on Search label - "Limit my search to..." */
+#search #searchexpando label {
+    padding: 0 10px;
+}
