@@ -273,3 +273,9 @@ body .btn, body button {
   min-width: 70px !important;
   min-height: 70px !important;
   }
+
+/* Removing the red background colour from the Cake Day Icons	*/
+.link .entry .tagline .userattrs a.cakeday {
+    margin: -1px 0 0 2px;
+    background-color: transparent;
+}
