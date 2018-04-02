@@ -279,3 +279,17 @@ body .btn, body button {
     margin: -1px 0 0 2px;
     background-color: transparent;
 }
+
+/* Showing votes on collapsed comments */
+.comment.collapsed .midcol {
+    visibility: visible !important;
+}
+.comment.collapsed .arrow.up,
+.comment.collapsed .arrow.down {
+    display: none !important;
+}
+
+/* Adjust padding on collapsed comments */
+.res .comment.collapsed .entry {
+    margin-bottom: 0;
+}
